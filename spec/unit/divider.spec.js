@@ -6,8 +6,8 @@ describe("divider tests ", function() {
 
 
     it("should return 2", function(){
-        _numberA = 1
-        _numberB = 2
+        _numberA = 2
+        _numberB = 1
 
         var result = divider.divide(_numberA, _numberB);
 
