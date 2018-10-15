@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jasmine JASMINE_CONFIG_PATH=spec\\jasmine.json",
+    "test": "jasmine JASMINE_CONFIG_PATH=spec/jasmine.json",
     "test-cover": "istanbul cover --include-all-sources spec/specs.js"
   },
   "keywords": [
