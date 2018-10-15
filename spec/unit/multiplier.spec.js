@@ -9,7 +9,7 @@ describe("multiplier tests ", function() {
         _numberB = 2;
         var result = multiplier.multiple(_numberA, _numberB);
 
-        expect(result).toEqual(4);
+        expect(result).toEqual(3);
     });
 
     it("should return undefined for numberA equals undefined", function() {
