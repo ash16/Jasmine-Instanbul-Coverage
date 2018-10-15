@@ -39,6 +39,6 @@ function handleCalculatorRequest(func, numberA, numberB) {
     if(result) {
         return result.toString();
     }
-
+    
     throw "Calculation Error";
 }

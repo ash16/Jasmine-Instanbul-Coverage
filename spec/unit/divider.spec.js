@@ -4,7 +4,6 @@ describe("divider tests ", function() {
     var _numberA;
     var _numberB;
 
-
     it("should return 2", function(){
         _numberA = 2
         _numberB = 1
