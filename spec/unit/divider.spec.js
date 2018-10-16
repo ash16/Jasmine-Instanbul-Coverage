@@ -12,4 +12,13 @@ describe("divider tests ", function() {
 
         expect(result).toEqual(2);
     })
+
+    it("should return undefined", function(){
+        _numberA = 2
+        _numberB = 0
+
+        var result = divider.divide(_numberA, _numberB);
+
+        expect(result).toEqual(undefined);
+    })
 });
